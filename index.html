@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apollo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('https://thumbs2.imgbox.com/90/0d/TaxQK9Wa_t.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            color: #000; /* Cor do texto */
+            position: relative;
+        }
+
+        button, input, p {
+            margin: 10px;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            background-color: #FFD700;
+            color: #000;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover, input:hover, p:hover {
+            background-color: #FFA500;
+        }
+
+        .profile-image, .contact-image, .discord-image, .overlay-image {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .profile-image img, .contact-image img, .discord-image img, .overlay-image img {
+            width: 100px; /* Ajuste o tamanho conforme necessário */
+            height: 100px; /* Ajuste o tamanho conforme necessário */
+            border-radius: 50%;
+            display: block;
+        }
+
+        .contact-image {
+            top: 30%; /* Ajuste a posição conforme necessário */
+        }
+
+        .discord-info {
+            color: #FFD700;
+            text-align: center;
+        }
+
+        .discord-info p {
+            margin: 5px 0;
+        }
+
+        .discord-info .founder {
+            color: #FFD700;
+        }
+
+        .discord-info .owner {
+            color: red;
+        }
+
+        .discord-info .founder-discord {
+            color: blue;
+        }
+
+        .square-image {
+            position: absolute;
+            top: 75%; /* Ajuste a posição conforme necessário */
+            left: 50%;
+            transform: translateX(-50%);
+            overflow: hidden;
+        }
+
+        .square-image img {
+            width: 100px; /* Ajuste o tamanho conforme necessário */
+            height: 100px; /* Ajuste o tamanho conforme necessário */
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- O trecho com a imagem foi removido -->
+    <p>Para entrar em contato conosco</p>
+    <p>Nosso email: Apollo128w@gmail.com</p>
+
+    <button onclick="window.location.href='https://discord.gg/yCAK3MQWnd'">Discord</button>
+
+    <div class="contact-image">
+        <!-- Esta imagem foi removida -->
+    </div>
+
+    <div class="discord-info">
+        <p>Sobre:</p>
+        <p>Fundador: Indio/Victor</p>
+        <p>Dono: Patola</p>
+        <p class="founder-discord">Discord do fundador: indio3794</p>
+        <p class="owner">Discord do Dono: patolass_6636</p>
+    </div>
+
+    <div class="overlay-image">
+        <!-- Esta imagem foi removida -->
+    </div>
+</body>
+</html>
